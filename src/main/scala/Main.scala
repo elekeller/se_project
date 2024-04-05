@@ -1,19 +1,12 @@
-@main def hello(): Unit =
-  println("Hello world!")
-  println(msg)
+/* import Card._ */
 
-def msg = "I was compiled by Scala 3. :)"
-
-sealed trait Color
-case object Red extends Color
-case object Green extends Color
-case object Blue extends Color
-case object Yellow extends Color
-
-sealed trait CardType
-case class Point(value:Int) extends CardType
-case class Draw2Card extends CardType
-case class SkipCard extends CardType
-case class ReverseCard extends CardType
-case class WildCard extends CardType
-case class WildDraw4Card extends CardType
+@main def main(): Unit = {
+  val card = new Card(ColoredCard(Red, Point(5)))
+  println(card)
+  val card2 = new Card(ColoredCard(Blue, Draw2))
+  println(card2)
+  val card3 = new Card(ColoredCard(Yellow, Skip))
+  println(card3)
+  val card4 = new Card(WildCard)
+  println(card4)
+}
