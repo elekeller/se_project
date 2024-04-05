@@ -1,0 +1,22 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\scala\se\se_project\src\main\scala\Main.scala:4:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m4 |[0m  [33mval[0m [36mcard[0m = Card(Red, Point([31m5[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                  ^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                  Found:    (Red.type, Point)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                  Required: CardType[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\scala\se\se_project\src\main\scala\Main.scala:6:19 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m6 |[0m  [33mval[0m [36mcard2[0m = Card(Blue, WildCard)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                   ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                   Found:    (Blue.type, WildCard.type)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                   Required: CardType[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\scala\se\se_project\src\main\scala\Main.scala:8:19 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m  [33mval[0m [36mcard3[0m = Card(Yellow, WildDraw4Card)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                   ^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                   Found:    (Yellow.type, WildDraw4Card.type)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                   Required: CardType[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
